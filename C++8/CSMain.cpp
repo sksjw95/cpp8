@@ -13,8 +13,6 @@ int main() {
 	while (*pt) {
 		chStack.push(*(pt++));
 	}
-	
-
 	cout << "역순 단어 출력 : ";
 	while (!chStack.chkEmpty()) {
 		cout << chStack.pop();
