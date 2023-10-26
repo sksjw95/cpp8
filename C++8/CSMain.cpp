@@ -6,7 +6,7 @@ int main() {
 	CharStack chStack;
 	char str[20];
 
-	cout << "영어 단어를 입력하세요.2:";
+	cout << "영어 단어를 입력하세요.:";
 	cin >> str;
 
 	char* pt = str;
